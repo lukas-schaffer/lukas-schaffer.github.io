@@ -1,12 +1,12 @@
 # Site settings
-title: Your blog title goes here
+title: Blog of Lukas Schaffer
 description: >
-  Your blog description
-baseurl: "/rust-lang-blog-boilerplate" # should be / if you build a global github page (eg o0ignition0o.github.io)
-url: "https://o0Ignition0o.github.io" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
+  The ramblings of a madman
+baseurl: "/" # should be / if you build a global github page (eg o0ignition0o.github.io)
+url: "https://lukas-schaffer.github.io" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
 logo: "https://www.rust-lang.org/logos/rust-logo-64x64-blk.png" # This one is used as blog logo
-twitter_username: o0ignition0o # Your twitter handle
-github_username: o0Ignition0o # Your github handle
+twitter_username: Lukas_Schaffer_ # Your twitter handle
+github_username: lukas-schaffer # Your github handle
 
 # Build settings
 highlighter: rouge
