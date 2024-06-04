@@ -2,7 +2,7 @@ import type { PostHideElements } from '~/content/config';
 
 export const Site = 'https://lukas-schaffer.github.io';
 export const SiteLanguage = 'en-GB';
-export const SiteTitle = "Lukas' Blog - Now without Fluorides!";
+export const SiteTitle = "Lukas' Blog - 95% Vegan!";
 export const SiteDescription =
 	"Lukas' Blog where he can throw his disordered thoughts at random people like ninja stars.";
 export const AdminName = 'Zirruedo';
