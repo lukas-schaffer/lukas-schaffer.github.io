@@ -27,3 +27,6 @@ __coverage__/
 
 # Vercel output
 .vercel
+
+# ignoring the ideas.md so that i dont commit and spoil my future ideas
+ideas.md
