@@ -1,16 +1,10 @@
 ---
-import { Picture } from 'astro:assets';
-import img from '~/assets/about_me_landscape.svg';
+import Logo from '~/assets/about_me_landscape.svg';
 import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
 ---
 
 <MarkdownLayout title="About" description="About this site." currentNav="About">
-	<Picture
-		class="lg:float-right lg:ml-4 lg:w-2/5"
-		src={img}
-		formats={['avif', 'webp']}
-		alt="Mountains"
-	/>
+	<Logo class="lg:float-right lg:ml-4 lg:w-2/5"/>
 	<h2>Who are you? </h2>
 	<p>Starting with the big questions huh? My name is Lukas Schaffer and i am currently a Bachelors-Student in Psychology at the University of Graz. I learned Software-Engineering and have already worked a few successfull jobs using it. But i am not going to regurgitate my LinkedIn onto you, nobody wants to read that more than once. Suffice to say, i am a dude who is trying his hand at writing a blog.</p>
 	<h2>Why a blog? </h2>

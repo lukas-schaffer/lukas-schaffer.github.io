@@ -39,9 +39,9 @@ export async function getMarkdownEntries(): Promise<MarkdownEntry[]> {
 			continue;
 		}
 		const file = matter(await fs.promises.readFile(filePath, 'utf8'));
-		const slug = (file.data.slug as string) ?? path.basename(filePath, ext);
+		const id = (file.data.id as string) ?? path.basename(filePath, ext);
 		files.push({
-			url: new URL(`/posts/${slug}`, Site),
+			url: new URL(`/posts/${id}`, Site),
 			path: filePath,
 			file: file,
 		});

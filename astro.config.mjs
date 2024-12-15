@@ -96,4 +96,7 @@ export default defineConfig({
 			rehypeKatax,
 		],
 	},
+	experimental: {
+		svg: true
+	}
 });

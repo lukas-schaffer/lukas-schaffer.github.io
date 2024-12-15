@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from "astro/loaders";
 
 const hideElements = z.enum([
 	'title',
@@ -11,8 +12,9 @@ const hideElements = z.enum([
 ]);
 export type PostHideElements = z.infer<typeof hideElements>;
 
+// TODO: Check why there is an image imported here and maybe use it
 const posts = defineCollection({
-	type: 'content',
+	loader: glob({ pattern: "*.md", base: "./src/content/posts"}),
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),

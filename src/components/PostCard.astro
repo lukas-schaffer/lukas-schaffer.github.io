@@ -16,7 +16,7 @@ if (post.data.hide?.includes('lastmod') && post.data.date) {
 <div class="my-5 flex flex-col gap-4 xl:flex-row">
 	<div class="flex grow flex-col gap-4">
 		<h2 class="text-4xl">
-			<a href={`/posts/${post.slug}`} aria-label={`Read post: ${post.data.title}`}>
+			<a href={`/posts/${post.id}`} aria-label={`Read post: ${post.data.title}`}>
 				{post.data.title}
 			</a>
 		</h2>
