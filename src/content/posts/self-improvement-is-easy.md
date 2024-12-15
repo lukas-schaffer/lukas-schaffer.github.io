@@ -2,6 +2,7 @@
 title: Self improvement is easy (If you are good at lying)
 description: First adventures in blogging and regular adventures in coding
 date: 2024-05-28T00:13:45+08:00
+lastmod: 2024-12-15T21:07:45+02:00
 tags:
   - blog related
   - coding
@@ -34,3 +35,6 @@ The only changes i made to this recipe were as follows:
 ### Coda
 Seeing as i talked about the most important things and set up my Blog in the meantime, i am confident to wrap the first post up here. There is no writing schedule as i cannot predict when the muse will strike me next (translation: when i will have my next spontaneous bout of motivation and / or procrastionation that enables me to write more than two coherent sentences). But i have to say, I understand the appeal of writing about one's progress, really helps to put things into perspective. And also its fun.
 ![Image of the iconic Looney Tunes "That's all Folks" Image](../attachments/thats_all_folks.png)
+
+## Addendum
+Hi, Lukas from approximately 7 Months in the future here, i am going to disable discus and therefore commenting for now, as i would like to figure something out for myself. If you have any questions or opinions you would like me to know, please direct them to my email. Thanks!

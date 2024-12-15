@@ -1,9 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { Icon } from 'astro-icon/components';
-import Comments from '~/components/Comments.astro';
 import { Hide, type HideElements } from '~/config';
-import type { PostHideElements } from '~/content/config';
+import type { PostHideElements } from '~/content.config';
 import ScaffoldLayout from './ScaffoldLayout.astro';
 import 'katex/dist/katex.css';
 
@@ -102,12 +101,13 @@ const showTimes = showDate || showLastmod || showReadingTime;
 		<slot />
 	</article>
 	{
-		show('comments') && (
-			<>
-				<hr class="mx-auto my-4 h-1 w-48 rounded border-0 bg-zinc-200 md:my-10 dark:bg-zinc-700" />
-				<Comments />
-			</>
-		)
+		// TODO: Either build custom comments or remove this
+		// show('comments') && (
+		// 	<>
+		// 		<hr class="mx-auto my-4 h-1 w-48 rounded border-0 bg-zinc-200 md:my-10 dark:bg-zinc-700" />
+				
+		// 	</>
+		// )
 	}
 </ScaffoldLayout>
 <script is:inline type="module">
